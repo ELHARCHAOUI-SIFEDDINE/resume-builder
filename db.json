@@ -1,0 +1,1292 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Demo User",
+      "email": "demo@example.com",
+      "password": "password123",
+      "role": "user",
+      "createdAt": "2023-01-15T12:30:00.000Z",
+      "isPremium": false
+    },
+    {
+      "id": 2,
+      "name": "Premium User",
+      "email": "premium@example.com",
+      "password": "premium123",
+      "role": "user",
+      "createdAt": "2023-02-15T14:45:00.000Z",
+      "isPremium": true
+    },
+    {
+      "name": "Saif",
+      "email": "saif@gmail.com",
+      "password": "123456789",
+      "role": "user",
+      "createdAt": "2025-04-11T17:59:49.788Z",
+      "isPremium": false,
+      "id": 3
+    },
+    {
+      "name": "elharchaoui sif-eddine",
+      "email": "elharchaouisifeddine@gmail.com",
+      "password": "saif12**",
+      "role": "user",
+      "createdAt": "2025-04-11T19:18:59.695Z",
+      "isPremium": false,
+      "id": 4
+    },
+    {
+      "name": "KJGH",
+      "email": "chaymaaelissawi69@gmail.com",
+      "password": "12345678",
+      "role": "user",
+      "createdAt": "2025-04-12T07:20:42.917Z",
+      "isPremium": false,
+      "id": 5
+    }
+  ],
+  "templates": [
+    {
+      "id": 1,
+      "name": "Professional Modern",
+      "description": "Modern and clean design following Google's Material Design principles",
+      "premium": false,
+      "category": "modern",
+      "tags": [
+        "professional",
+        "clean",
+        "tech"
+      ],
+      "thumbnail": "/images/templates/google-material-thumb.jpg",
+      "component": "Template1"
+    },
+    {
+      "id": 2,
+      "name": "Creative Visual",
+      "description": "Stand out with this creative design for designers and artists",
+      "premium": true,
+      "category": "creative",
+      "tags": [
+        "creative",
+        "design",
+        "portfolio"
+      ],
+      "thumbnail": "/images/templates/creative-pro-thumb.jpg",
+      "component": "Template3"
+    },
+    {
+      "id": 3,
+      "name": "Executive Premium",
+      "description": "Elegant and sophisticated design for senior professionals",
+      "premium": true,
+      "category": "professional",
+      "tags": [
+        "executive",
+        "elegant",
+        "sophisticated"
+      ],
+      "thumbnail": "/images/templates/executive-thumb.jpg",
+      "component": "ExecutivePremium"
+    },
+    {
+      "id": 4,
+      "name": "Minimal Clean",
+      "description": "Clean, minimal design with modern typography and spacing",
+      "premium": false,
+      "category": "minimal",
+      "tags": [
+        "minimal",
+        "clean",
+        "modern"
+      ],
+      "thumbnail": "/images/templates/minimal-thumb.jpg",
+      "component": "MinimalClean"
+    }
+  ],
+  "resumes": [
+    {
+      "name": "elharchaoui sif-eddine",
+      "templateId": 2,
+      "data": {
+        "personalInfo": {
+          "fullName": "elharchaoui sif-eddine",
+          "email": "",
+          "phone": "0623291349",
+          "location": "",
+          "linkedIn": "",
+          "github": "",
+          "website": "",
+          "position": "software enginner",
+          "photo": ""
+        },
+        "education": [
+          {
+            "school": "",
+            "degree": "",
+            "fieldOfStudy": "",
+            "startDate": "",
+            "endDate": "",
+            "gpa": "",
+            "achievements": [
+              ""
+            ]
+          }
+        ],
+        "experience": [
+          {
+            "company": "",
+            "position": "",
+            "location": "",
+            "startDate": "",
+            "endDate": "",
+            "current": false,
+            "achievements": [
+              ""
+            ]
+          }
+        ],
+        "projects": [
+          {
+            "title": "",
+            "description": "",
+            "link": "",
+            "date": "",
+            "technologies": [
+              ""
+            ]
+          }
+        ],
+        "certifications": [
+          {
+            "name": "",
+            "issuer": "",
+            "date": "",
+            "url": ""
+          }
+        ],
+        "skills": [
+          ""
+        ],
+        "summary": ""
+      },
+      "userId": 1,
+      "createdAt": "2025-04-11T19:16:51.019Z",
+      "updatedAt": "2025-04-11T19:16:51.019Z",
+      "versions": [
+        {
+          "data": {
+            "personalInfo": {
+              "fullName": "elharchaoui sif-eddine",
+              "email": "",
+              "phone": "0623291349",
+              "location": "",
+              "linkedIn": "",
+              "github": "",
+              "website": "",
+              "position": "software enginner",
+              "photo": ""
+            },
+            "education": [
+              {
+                "school": "",
+                "degree": "",
+                "fieldOfStudy": "",
+                "startDate": "",
+                "endDate": "",
+                "gpa": "",
+                "achievements": [
+                  ""
+                ]
+              }
+            ],
+            "experience": [
+              {
+                "company": "",
+                "position": "",
+                "location": "",
+                "startDate": "",
+                "endDate": "",
+                "current": false,
+                "achievements": [
+                  ""
+                ]
+              }
+            ],
+            "projects": [
+              {
+                "title": "",
+                "description": "",
+                "link": "",
+                "date": "",
+                "technologies": [
+                  ""
+                ]
+              }
+            ],
+            "certifications": [
+              {
+                "name": "",
+                "issuer": "",
+                "date": "",
+                "url": ""
+              }
+            ],
+            "skills": [
+              ""
+            ],
+            "summary": ""
+          },
+          "timestamp": "2025-04-11T19:16:51.019Z",
+          "version": 1
+        }
+      ],
+      "id": 1
+    },
+    {
+      "id": "1744551733402",
+      "name": "John Doe's Resume",
+      "templateId": 5,
+      "data": {
+        "personalInfo": {
+          "fullName": "elharchaoui sif-eddine",
+          "position": "UX Designer",
+          "email": "john.doe@example.com",
+          "phone": "123-456-7890",
+          "location": "New York, NY",
+          "linkedIn": "linkedin.com/in/johndoe",
+          "github": "github.com/johndoe",
+          "website": "johndoe.com",
+          "photo": ""
+        },
+        "experience": [
+          {
+            "company": "Tech Solutions Inc",
+            "position": "Senior UX Designer",
+            "startDate": "Jan 2018",
+            "endDate": "Present",
+            "current": true,
+            "location": "New York, NY",
+            "achievements": [
+              "Led redesign of company website resulting in 30% increase in user engagement.",
+              "Conducted user interviews and usability tests to inform design decisions."
+            ]
+          },
+          {
+            "company": "Digital Innovations Co",
+            "position": "UX Designer",
+            "startDate": "Jun 2015",
+            "endDate": "Dec 2017",
+            "current": false,
+            "location": "San Francisco, CA",
+            "achievements": [
+              "Designed intuitive mobile app interface that improved user retention by 20%.",
+              "Collaborated with product managers to define product requirements."
+            ]
+          }
+        ],
+        "education": [
+          {
+            "school": "University of Design",
+            "degree": "Bachelor of Science",
+            "fieldOfStudy": "Interaction Design",
+            "startDate": "Sep 2011",
+            "endDate": "Jun 2015",
+            "gpa": "3.8"
+          }
+        ],
+        "skills": [
+          "User Research",
+          "Wireframing",
+          "Prototyping",
+          "Usability Testing",
+          "UI Design"
+        ],
+        "projects": [
+          {
+            "title": "E-Commerce Redesign",
+            "description": "Redesigned the user interface of an e-commerce platform to enhance user experience and increase conversions.",
+            "technologies": [
+              "Figma",
+              "InVision"
+            ],
+            "date": "Mar 2021"
+          },
+          {
+            "title": "Mobile App Prototype",
+            "description": "Created a high-fidelity interactive prototype for a mobile app focusing on usability and user flow.",
+            "technologies": [
+              "Adobe XD",
+              "Sketch"
+            ],
+            "date": "Aug 2020"
+          }
+        ],
+        "certifications": [
+          {
+            "name": "UX Design Certification",
+            "issuer": "Interaction Design Foundation",
+            "date": "Apr 2019"
+          },
+          {
+            "name": "Usability Testing Certification",
+            "issuer": "Nielsen Norman Group",
+            "date": "Jun 2018"
+          }
+        ],
+        "summary": "Passionate UX Designer with 5 years of experience creating user-centric designs for web and mobile applications. Proficient in user research, wireframing, prototyping, and usability testing. Strong collaborator with cross-functional teams to deliver exceptional user experiences."
+      },
+      "createdAt": "2025-04-13T13:42:13.402Z",
+      "updatedAt": "2025-04-13T13:44:37.588Z",
+      "userId": "demo-123",
+      "versions": [
+        {
+          "versionId": "1744551733402-1",
+          "date": "2025-04-13T13:42:13.402Z",
+          "data": {
+            "personalInfo": {
+              "fullName": "John Doe",
+              "position": "UX Designer",
+              "email": "john.doe@example.com",
+              "phone": "123-456-7890",
+              "location": "New York, NY",
+              "linkedIn": "linkedin.com/in/johndoe",
+              "github": "github.com/johndoe",
+              "website": "johndoe.com",
+              "photo": ""
+            },
+            "experience": [
+              {
+                "company": "Tech Solutions Inc",
+                "position": "Senior UX Designer",
+                "startDate": "Jan 2018",
+                "endDate": "Present",
+                "current": true,
+                "location": "New York, NY",
+                "achievements": [
+                  "Led redesign of company website resulting in 30% increase in user engagement.",
+                  "Conducted user interviews and usability tests to inform design decisions."
+                ]
+              },
+              {
+                "company": "Digital Innovations Co",
+                "position": "UX Designer",
+                "startDate": "Jun 2015",
+                "endDate": "Dec 2017",
+                "current": false,
+                "location": "San Francisco, CA",
+                "achievements": [
+                  "Designed intuitive mobile app interface that improved user retention by 20%.",
+                  "Collaborated with product managers to define product requirements."
+                ]
+              }
+            ],
+            "education": [
+              {
+                "school": "University of Design",
+                "degree": "Bachelor of Science",
+                "fieldOfStudy": "Interaction Design",
+                "startDate": "Sep 2011",
+                "endDate": "Jun 2015",
+                "gpa": "3.8"
+              }
+            ],
+            "skills": [
+              "User Research",
+              "Wireframing",
+              "Prototyping",
+              "Usability Testing",
+              "UI Design"
+            ],
+            "projects": [
+              {
+                "title": "E-Commerce Redesign",
+                "description": "Redesigned the user interface of an e-commerce platform to enhance user experience and increase conversions.",
+                "technologies": [
+                  "Figma",
+                  "InVision"
+                ],
+                "date": "Mar 2021"
+              },
+              {
+                "title": "Mobile App Prototype",
+                "description": "Created a high-fidelity interactive prototype for a mobile app focusing on usability and user flow.",
+                "technologies": [
+                  "Adobe XD",
+                  "Sketch"
+                ],
+                "date": "Aug 2020"
+              }
+            ],
+            "certifications": [
+              {
+                "name": "UX Design Certification",
+                "issuer": "Interaction Design Foundation",
+                "date": "Apr 2019"
+              },
+              {
+                "name": "Usability Testing Certification",
+                "issuer": "Nielsen Norman Group",
+                "date": "Jun 2018"
+              }
+            ],
+            "summary": "Passionate UX Designer with 5 years of experience creating user-centric designs for web and mobile applications. Proficient in user research, wireframing, prototyping, and usability testing. Strong collaborator with cross-functional teams to deliver exceptional user experiences."
+          }
+        },
+        {
+          "data": {
+            "id": "1744551733402",
+            "name": "John Doe's Resume",
+            "templateId": 1,
+            "data": {
+              "personalInfo": {
+                "fullName": "elharchaoui sif-eddine",
+                "position": "UX Designer",
+                "email": "john.doe@example.com",
+                "phone": "123-456-7890",
+                "location": "New York, NY",
+                "linkedIn": "linkedin.com/in/johndoe",
+                "github": "github.com/johndoe",
+                "website": "johndoe.com",
+                "photo": ""
+              },
+              "experience": [
+                {
+                  "company": "Tech Solutions Inc",
+                  "position": "Senior UX Designer",
+                  "startDate": "Jan 2018",
+                  "endDate": "Present",
+                  "current": true,
+                  "location": "New York, NY",
+                  "achievements": [
+                    "Led redesign of company website resulting in 30% increase in user engagement.",
+                    "Conducted user interviews and usability tests to inform design decisions."
+                  ]
+                },
+                {
+                  "company": "Digital Innovations Co",
+                  "position": "UX Designer",
+                  "startDate": "Jun 2015",
+                  "endDate": "Dec 2017",
+                  "current": false,
+                  "location": "San Francisco, CA",
+                  "achievements": [
+                    "Designed intuitive mobile app interface that improved user retention by 20%.",
+                    "Collaborated with product managers to define product requirements."
+                  ]
+                }
+              ],
+              "education": [
+                {
+                  "school": "University of Design",
+                  "degree": "Bachelor of Science",
+                  "fieldOfStudy": "Interaction Design",
+                  "startDate": "Sep 2011",
+                  "endDate": "Jun 2015",
+                  "gpa": "3.8"
+                }
+              ],
+              "skills": [
+                "User Research",
+                "Wireframing",
+                "Prototyping",
+                "Usability Testing",
+                "UI Design"
+              ],
+              "projects": [
+                {
+                  "title": "E-Commerce Redesign",
+                  "description": "Redesigned the user interface of an e-commerce platform to enhance user experience and increase conversions.",
+                  "technologies": [
+                    "Figma",
+                    "InVision"
+                  ],
+                  "date": "Mar 2021"
+                },
+                {
+                  "title": "Mobile App Prototype",
+                  "description": "Created a high-fidelity interactive prototype for a mobile app focusing on usability and user flow.",
+                  "technologies": [
+                    "Adobe XD",
+                    "Sketch"
+                  ],
+                  "date": "Aug 2020"
+                }
+              ],
+              "certifications": [
+                {
+                  "name": "UX Design Certification",
+                  "issuer": "Interaction Design Foundation",
+                  "date": "Apr 2019"
+                },
+                {
+                  "name": "Usability Testing Certification",
+                  "issuer": "Nielsen Norman Group",
+                  "date": "Jun 2018"
+                }
+              ],
+              "summary": "Passionate UX Designer with 5 years of experience creating user-centric designs for web and mobile applications. Proficient in user research, wireframing, prototyping, and usability testing. Strong collaborator with cross-functional teams to deliver exceptional user experiences."
+            },
+            "createdAt": "2025-04-13T13:42:13.402Z",
+            "updatedAt": "2025-04-13T13:42:32.111Z",
+            "userId": "demo-123",
+            "versions": [
+              {
+                "versionId": "1744551733402-1",
+                "date": "2025-04-13T13:42:13.402Z",
+                "data": {
+                  "personalInfo": {
+                    "fullName": "John Doe",
+                    "position": "UX Designer",
+                    "email": "john.doe@example.com",
+                    "phone": "123-456-7890",
+                    "location": "New York, NY",
+                    "linkedIn": "linkedin.com/in/johndoe",
+                    "github": "github.com/johndoe",
+                    "website": "johndoe.com",
+                    "photo": ""
+                  },
+                  "experience": [
+                    {
+                      "company": "Tech Solutions Inc",
+                      "position": "Senior UX Designer",
+                      "startDate": "Jan 2018",
+                      "endDate": "Present",
+                      "current": true,
+                      "location": "New York, NY",
+                      "achievements": [
+                        "Led redesign of company website resulting in 30% increase in user engagement.",
+                        "Conducted user interviews and usability tests to inform design decisions."
+                      ]
+                    },
+                    {
+                      "company": "Digital Innovations Co",
+                      "position": "UX Designer",
+                      "startDate": "Jun 2015",
+                      "endDate": "Dec 2017",
+                      "current": false,
+                      "location": "San Francisco, CA",
+                      "achievements": [
+                        "Designed intuitive mobile app interface that improved user retention by 20%.",
+                        "Collaborated with product managers to define product requirements."
+                      ]
+                    }
+                  ],
+                  "education": [
+                    {
+                      "school": "University of Design",
+                      "degree": "Bachelor of Science",
+                      "fieldOfStudy": "Interaction Design",
+                      "startDate": "Sep 2011",
+                      "endDate": "Jun 2015",
+                      "gpa": "3.8"
+                    }
+                  ],
+                  "skills": [
+                    "User Research",
+                    "Wireframing",
+                    "Prototyping",
+                    "Usability Testing",
+                    "UI Design"
+                  ],
+                  "projects": [
+                    {
+                      "title": "E-Commerce Redesign",
+                      "description": "Redesigned the user interface of an e-commerce platform to enhance user experience and increase conversions.",
+                      "technologies": [
+                        "Figma",
+                        "InVision"
+                      ],
+                      "date": "Mar 2021"
+                    },
+                    {
+                      "title": "Mobile App Prototype",
+                      "description": "Created a high-fidelity interactive prototype for a mobile app focusing on usability and user flow.",
+                      "technologies": [
+                        "Adobe XD",
+                        "Sketch"
+                      ],
+                      "date": "Aug 2020"
+                    }
+                  ],
+                  "certifications": [
+                    {
+                      "name": "UX Design Certification",
+                      "issuer": "Interaction Design Foundation",
+                      "date": "Apr 2019"
+                    },
+                    {
+                      "name": "Usability Testing Certification",
+                      "issuer": "Nielsen Norman Group",
+                      "date": "Jun 2018"
+                    }
+                  ],
+                  "summary": "Passionate UX Designer with 5 years of experience creating user-centric designs for web and mobile applications. Proficient in user research, wireframing, prototyping, and usability testing. Strong collaborator with cross-functional teams to deliver exceptional user experiences."
+                }
+              }
+            ]
+          },
+          "timestamp": "2025-04-13T13:42:32.152Z",
+          "version": 2
+        },
+        {
+          "data": {
+            "id": "1744551733402",
+            "name": "John Doe's Resume",
+            "templateId": 5,
+            "data": {
+              "personalInfo": {
+                "fullName": "elharchaoui sif-eddine",
+                "position": "UX Designer",
+                "email": "john.doe@example.com",
+                "phone": "123-456-7890",
+                "location": "New York, NY",
+                "linkedIn": "linkedin.com/in/johndoe",
+                "github": "github.com/johndoe",
+                "website": "johndoe.com",
+                "photo": ""
+              },
+              "experience": [
+                {
+                  "company": "Tech Solutions Inc",
+                  "position": "Senior UX Designer",
+                  "startDate": "Jan 2018",
+                  "endDate": "Present",
+                  "current": true,
+                  "location": "New York, NY",
+                  "achievements": [
+                    "Led redesign of company website resulting in 30% increase in user engagement.",
+                    "Conducted user interviews and usability tests to inform design decisions."
+                  ]
+                },
+                {
+                  "company": "Digital Innovations Co",
+                  "position": "UX Designer",
+                  "startDate": "Jun 2015",
+                  "endDate": "Dec 2017",
+                  "current": false,
+                  "location": "San Francisco, CA",
+                  "achievements": [
+                    "Designed intuitive mobile app interface that improved user retention by 20%.",
+                    "Collaborated with product managers to define product requirements."
+                  ]
+                }
+              ],
+              "education": [
+                {
+                  "school": "University of Design",
+                  "degree": "Bachelor of Science",
+                  "fieldOfStudy": "Interaction Design",
+                  "startDate": "Sep 2011",
+                  "endDate": "Jun 2015",
+                  "gpa": "3.8"
+                }
+              ],
+              "skills": [
+                "User Research",
+                "Wireframing",
+                "Prototyping",
+                "Usability Testing",
+                "UI Design"
+              ],
+              "projects": [
+                {
+                  "title": "E-Commerce Redesign",
+                  "description": "Redesigned the user interface of an e-commerce platform to enhance user experience and increase conversions.",
+                  "technologies": [
+                    "Figma",
+                    "InVision"
+                  ],
+                  "date": "Mar 2021"
+                },
+                {
+                  "title": "Mobile App Prototype",
+                  "description": "Created a high-fidelity interactive prototype for a mobile app focusing on usability and user flow.",
+                  "technologies": [
+                    "Adobe XD",
+                    "Sketch"
+                  ],
+                  "date": "Aug 2020"
+                }
+              ],
+              "certifications": [
+                {
+                  "name": "UX Design Certification",
+                  "issuer": "Interaction Design Foundation",
+                  "date": "Apr 2019"
+                },
+                {
+                  "name": "Usability Testing Certification",
+                  "issuer": "Nielsen Norman Group",
+                  "date": "Jun 2018"
+                }
+              ],
+              "summary": "Passionate UX Designer with 5 years of experience creating user-centric designs for web and mobile applications. Proficient in user research, wireframing, prototyping, and usability testing. Strong collaborator with cross-functional teams to deliver exceptional user experiences."
+            },
+            "createdAt": "2025-04-13T13:42:13.402Z",
+            "updatedAt": "2025-04-13T13:44:37.543Z",
+            "userId": "demo-123",
+            "versions": [
+              {
+                "versionId": "1744551733402-1",
+                "date": "2025-04-13T13:42:13.402Z",
+                "data": {
+                  "personalInfo": {
+                    "fullName": "John Doe",
+                    "position": "UX Designer",
+                    "email": "john.doe@example.com",
+                    "phone": "123-456-7890",
+                    "location": "New York, NY",
+                    "linkedIn": "linkedin.com/in/johndoe",
+                    "github": "github.com/johndoe",
+                    "website": "johndoe.com",
+                    "photo": ""
+                  },
+                  "experience": [
+                    {
+                      "company": "Tech Solutions Inc",
+                      "position": "Senior UX Designer",
+                      "startDate": "Jan 2018",
+                      "endDate": "Present",
+                      "current": true,
+                      "location": "New York, NY",
+                      "achievements": [
+                        "Led redesign of company website resulting in 30% increase in user engagement.",
+                        "Conducted user interviews and usability tests to inform design decisions."
+                      ]
+                    },
+                    {
+                      "company": "Digital Innovations Co",
+                      "position": "UX Designer",
+                      "startDate": "Jun 2015",
+                      "endDate": "Dec 2017",
+                      "current": false,
+                      "location": "San Francisco, CA",
+                      "achievements": [
+                        "Designed intuitive mobile app interface that improved user retention by 20%.",
+                        "Collaborated with product managers to define product requirements."
+                      ]
+                    }
+                  ],
+                  "education": [
+                    {
+                      "school": "University of Design",
+                      "degree": "Bachelor of Science",
+                      "fieldOfStudy": "Interaction Design",
+                      "startDate": "Sep 2011",
+                      "endDate": "Jun 2015",
+                      "gpa": "3.8"
+                    }
+                  ],
+                  "skills": [
+                    "User Research",
+                    "Wireframing",
+                    "Prototyping",
+                    "Usability Testing",
+                    "UI Design"
+                  ],
+                  "projects": [
+                    {
+                      "title": "E-Commerce Redesign",
+                      "description": "Redesigned the user interface of an e-commerce platform to enhance user experience and increase conversions.",
+                      "technologies": [
+                        "Figma",
+                        "InVision"
+                      ],
+                      "date": "Mar 2021"
+                    },
+                    {
+                      "title": "Mobile App Prototype",
+                      "description": "Created a high-fidelity interactive prototype for a mobile app focusing on usability and user flow.",
+                      "technologies": [
+                        "Adobe XD",
+                        "Sketch"
+                      ],
+                      "date": "Aug 2020"
+                    }
+                  ],
+                  "certifications": [
+                    {
+                      "name": "UX Design Certification",
+                      "issuer": "Interaction Design Foundation",
+                      "date": "Apr 2019"
+                    },
+                    {
+                      "name": "Usability Testing Certification",
+                      "issuer": "Nielsen Norman Group",
+                      "date": "Jun 2018"
+                    }
+                  ],
+                  "summary": "Passionate UX Designer with 5 years of experience creating user-centric designs for web and mobile applications. Proficient in user research, wireframing, prototyping, and usability testing. Strong collaborator with cross-functional teams to deliver exceptional user experiences."
+                }
+              }
+            ]
+          },
+          "timestamp": "2025-04-13T13:44:37.588Z",
+          "version": 3
+        }
+      ]
+    },
+    {
+      "id": "1744553522173",
+      "name": "Saif's Resume",
+      "templateId": 1,
+      "data": {
+        "personalInfo": {
+          "fullName": "Saif",
+          "position": "UX Designer",
+          "email": "saif@example.com",
+          "phone": "123-456-7890",
+          "location": "City, Country",
+          "linkedIn": "linkedin.com/in/saif",
+          "github": "github.com/saif",
+          "website": "saifportfolio.com",
+          "photo": ""
+        },
+        "experience": [
+          {
+            "company": "ABC Company",
+            "position": "UX Designer",
+            "startDate": "Jan 2019",
+            "endDate": "Present",
+            "current": true,
+            "location": "City, Country",
+            "achievements": [
+              "Led the redesign of company's website resulting in a 20% increase in user engagement.",
+              "Collaborated with cross-functional teams to optimize user flows and enhance user satisfaction."
+            ]
+          }
+        ],
+        "education": [
+          {
+            "school": "University XYZ",
+            "degree": "Bachelor of Science in Human-Computer Interaction",
+            "fieldOfStudy": "UX Design",
+            "startDate": "Sep 2015",
+            "endDate": "May 2019",
+            "gpa": "3.8"
+          }
+        ],
+        "skills": [
+          "User Research",
+          "Wireframing",
+          "Prototyping",
+          "Usability Testing",
+          "UI Design"
+        ],
+        "projects": [
+          {
+            "title": "E-Commerce App Redesign",
+            "description": "Redesigned the user interface of an e-commerce app to improve usability and increase sales.",
+            "technologies": [
+              "Figma",
+              "InVision"
+            ],
+            "date": "Oct 2021"
+          }
+        ],
+        "certifications": [
+          {
+            "name": "UX Design Certification",
+            "issuer": "UX Design Institute",
+            "date": "Dec 2020"
+          }
+        ],
+        "summary": "Creative and detail-oriented UX Designer with expertise in user research, prototyping, and creating intuitive user interfaces. Passionate about enhancing user experiences through innovative design solutions."
+      },
+      "createdAt": "2025-04-13T14:12:02.173Z",
+      "updatedAt": "2025-04-13T14:12:02.173Z",
+      "userId": "demo-123",
+      "versions": [
+        {
+          "versionId": "1744553522173-1",
+          "date": "2025-04-13T14:12:02.173Z",
+          "data": {
+            "personalInfo": {
+              "fullName": "Saif",
+              "position": "UX Designer",
+              "email": "saif@example.com",
+              "phone": "123-456-7890",
+              "location": "City, Country",
+              "linkedIn": "linkedin.com/in/saif",
+              "github": "github.com/saif",
+              "website": "saifportfolio.com",
+              "photo": ""
+            },
+            "experience": [
+              {
+                "company": "ABC Company",
+                "position": "UX Designer",
+                "startDate": "Jan 2019",
+                "endDate": "Present",
+                "current": true,
+                "location": "City, Country",
+                "achievements": [
+                  "Led the redesign of company's website resulting in a 20% increase in user engagement.",
+                  "Collaborated with cross-functional teams to optimize user flows and enhance user satisfaction."
+                ]
+              }
+            ],
+            "education": [
+              {
+                "school": "University XYZ",
+                "degree": "Bachelor of Science in Human-Computer Interaction",
+                "fieldOfStudy": "UX Design",
+                "startDate": "Sep 2015",
+                "endDate": "May 2019",
+                "gpa": "3.8"
+              }
+            ],
+            "skills": [
+              "User Research",
+              "Wireframing",
+              "Prototyping",
+              "Usability Testing",
+              "UI Design"
+            ],
+            "projects": [
+              {
+                "title": "E-Commerce App Redesign",
+                "description": "Redesigned the user interface of an e-commerce app to improve usability and increase sales.",
+                "technologies": [
+                  "Figma",
+                  "InVision"
+                ],
+                "date": "Oct 2021"
+              }
+            ],
+            "certifications": [
+              {
+                "name": "UX Design Certification",
+                "issuer": "UX Design Institute",
+                "date": "Dec 2020"
+              }
+            ],
+            "summary": "Creative and detail-oriented UX Designer with expertise in user research, prototyping, and creating intuitive user interfaces. Passionate about enhancing user experiences through innovative design solutions."
+          }
+        }
+      ]
+    },
+    {
+      "personalInfo": {
+        "fullName": "EL HARCHAOUI SIF-EDDINE",
+        "email": "saif@gmail.com",
+        "phone": "0623291349",
+        "location": "khemisset morocco",
+        "linkedIn": "https://linkedin.com/hr",
+        "github": "",
+        "website": "",
+        "position": "Software Engineer Full Stack",
+        "photo": ""
+      },
+      "summary": "Experienced software engineer with 2 years of experience in working with Laravel and React JS. Eager to further develop skills and become a proficient full stack developer. Pursuing a career goal of working at Google, with a strong desire to excel and contribute as part of a high-performing team.",
+      "experience": [
+        {
+          "company": "Current Position",
+          "position": "Software Engineer",
+          "location": "Khemisset, Morocco",
+          "startDate": "2020",
+          "endDate": "Present",
+          "current": true,
+          "achievements": [
+            "Proficient in building web applications using Laravel and React JS."
+          ]
+        },
+        {
+          "company": "Previous Position",
+          "position": "N/A",
+          "location": "N/A",
+          "startDate": "N/A",
+          "endDate": "N/A",
+          "current": false,
+          "achievements": [
+            "N/A"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "school": "Not Specified",
+          "degree": "Bac +2",
+          "fieldOfStudy": "Web Full Stack Development",
+          "startDate": "2023",
+          "endDate": "2025",
+          "gpa": "",
+          "achievements": []
+        }
+      ],
+      "skills": [
+        "React JS",
+        "Laravel",
+        "PHP",
+        "CSS"
+      ],
+      "projects": [
+        {
+          "title": "",
+          "description": "",
+          "link": "",
+          "date": "",
+          "technologies": [
+            ""
+          ]
+        }
+      ],
+      "certifications": [
+        {
+          "name": "",
+          "issuer": "",
+          "date": "",
+          "url": ""
+        }
+      ],
+      "templateId": 1,
+      "createdAt": "2025-04-13T14:43:15.406Z",
+      "updatedAt": "2025-04-13T14:43:15.406Z",
+      "userId": null,
+      "versions": [
+        {
+          "timestamp": "2025-04-13T14:43:15.406Z",
+          "version": 1
+        }
+      ],
+      "id": "bQTzuJC"
+    },
+    {
+      "id": "1744559476979",
+      "name": "John Doe's Resume",
+      "templateId": 1,
+      "data": {
+        "personalInfo": {
+          "fullName": "John Doe",
+          "position": "UX Designer",
+          "email": "johndoe@example.com",
+          "phone": "123-456-7890",
+          "location": "New York, NY",
+          "linkedIn": "linkedin.com/in/johndoe",
+          "github": "github.com/johndoe",
+          "website": "johndoe.com",
+          "photo": ""
+        },
+        "experience": [
+          {
+            "company": "Tech Solutions Inc.",
+            "position": "UX Designer",
+            "startDate": "Jan 2018",
+            "endDate": "Present",
+            "current": true,
+            "location": "New York, NY",
+            "achievements": [
+              "Led the redesign of the company website resulting in a 20% increase in user engagement.",
+              "Collaborated with product managers to improve the usability of mobile applications."
+            ]
+          },
+          {
+            "company": "Design Studio Co.",
+            "position": "Junior UX Designer",
+            "startDate": "Jun 2016",
+            "endDate": "Dec 2017",
+            "current": false,
+            "location": "San Francisco, CA",
+            "achievements": [
+              "Contributed to the development of wireframes and interactive prototypes for client projects.",
+              "Conducted user testing sessions to gather feedback and insights for design iterations."
+            ]
+          }
+        ],
+        "education": [
+          {
+            "school": "University of California, Berkeley",
+            "degree": "Bachelor of Arts",
+            "fieldOfStudy": "Interaction Design",
+            "startDate": "Sep 2012",
+            "endDate": "May 2016",
+            "gpa": "3.8"
+          }
+        ],
+        "skills": [
+          "User Research",
+          "Wireframing",
+          "Prototyping",
+          "Usability Testing",
+          "UI/UX Design",
+          "Adobe XD"
+        ],
+        "projects": [
+          {
+            "title": "E-Commerce Website Redesign",
+            "description": "Redesigned the user interface of an e-commerce website to enhance user experience and increase conversion rates.",
+            "technologies": [
+              "Adobe XD",
+              "InVision"
+            ],
+            "date": "Mar 2021"
+          },
+          {
+            "title": "Mobile App Prototype",
+            "description": "Created interactive prototypes for a mobile app focusing on intuitive navigation and user flow.",
+            "technologies": [
+              "Sketch",
+              "Figma"
+            ],
+            "date": "Aug 2020"
+          }
+        ],
+        "certifications": [
+          {
+            "name": "UX Design Certification",
+            "issuer": "Interaction Design Foundation",
+            "date": "Nov 2019"
+          },
+          {
+            "name": "UI/UX Fundamentals",
+            "issuer": "Coursera",
+            "date": "Jun 2018"
+          }
+        ],
+        "summary": "Passionate UX Designer with a strong background in creating intuitive and user-friendly interfaces. Skilled in conducting user research, wireframing, prototyping, and collaborating with cross-functional teams to deliver engaging digital experiences."
+      },
+      "createdAt": "2025-04-13T15:51:16.979Z",
+      "updatedAt": "2025-04-13T15:51:16.979Z",
+      "userId": "demo-123",
+      "versions": [
+        {
+          "versionId": "1744559476979-1",
+          "date": "2025-04-13T15:51:16.979Z",
+          "data": {
+            "personalInfo": {
+              "fullName": "John Doe",
+              "position": "UX Designer",
+              "email": "johndoe@example.com",
+              "phone": "123-456-7890",
+              "location": "New York, NY",
+              "linkedIn": "linkedin.com/in/johndoe",
+              "github": "github.com/johndoe",
+              "website": "johndoe.com",
+              "photo": ""
+            },
+            "experience": [
+              {
+                "company": "Tech Solutions Inc.",
+                "position": "UX Designer",
+                "startDate": "Jan 2018",
+                "endDate": "Present",
+                "current": true,
+                "location": "New York, NY",
+                "achievements": [
+                  "Led the redesign of the company website resulting in a 20% increase in user engagement.",
+                  "Collaborated with product managers to improve the usability of mobile applications."
+                ]
+              },
+              {
+                "company": "Design Studio Co.",
+                "position": "Junior UX Designer",
+                "startDate": "Jun 2016",
+                "endDate": "Dec 2017",
+                "current": false,
+                "location": "San Francisco, CA",
+                "achievements": [
+                  "Contributed to the development of wireframes and interactive prototypes for client projects.",
+                  "Conducted user testing sessions to gather feedback and insights for design iterations."
+                ]
+              }
+            ],
+            "education": [
+              {
+                "school": "University of California, Berkeley",
+                "degree": "Bachelor of Arts",
+                "fieldOfStudy": "Interaction Design",
+                "startDate": "Sep 2012",
+                "endDate": "May 2016",
+                "gpa": "3.8"
+              }
+            ],
+            "skills": [
+              "User Research",
+              "Wireframing",
+              "Prototyping",
+              "Usability Testing",
+              "UI/UX Design",
+              "Adobe XD"
+            ],
+            "projects": [
+              {
+                "title": "E-Commerce Website Redesign",
+                "description": "Redesigned the user interface of an e-commerce website to enhance user experience and increase conversion rates.",
+                "technologies": [
+                  "Adobe XD",
+                  "InVision"
+                ],
+                "date": "Mar 2021"
+              },
+              {
+                "title": "Mobile App Prototype",
+                "description": "Created interactive prototypes for a mobile app focusing on intuitive navigation and user flow.",
+                "technologies": [
+                  "Sketch",
+                  "Figma"
+                ],
+                "date": "Aug 2020"
+              }
+            ],
+            "certifications": [
+              {
+                "name": "UX Design Certification",
+                "issuer": "Interaction Design Foundation",
+                "date": "Nov 2019"
+              },
+              {
+                "name": "UI/UX Fundamentals",
+                "issuer": "Coursera",
+                "date": "Jun 2018"
+              }
+            ],
+            "summary": "Passionate UX Designer with a strong background in creating intuitive and user-friendly interfaces. Skilled in conducting user research, wireframing, prototyping, and collaborating with cross-functional teams to deliver engaging digital experiences."
+          }
+        }
+      ]
+    }
+  ],
+  "sharedResumes": [
+    {
+      "resumeId": 1,
+      "shareToken": "vyoyv3glspdqritnr9pas",
+      "createdAt": "2025-04-12T09:17:20.901Z",
+      "expiresAt": "2025-05-12T09:17:20.901Z",
+      "id": 1
+    },
+    {
+      "resumeId": 1,
+      "token": "ylugmej9jjiv2ag5hx57rn",
+      "createdAt": "2025-04-12T09:17:29.297Z",
+      "expiresAt": "2025-05-12T09:17:29.297Z",
+      "id": 2
+    }
+  ],
+  "coverLetters": [
+    {
+      "name": "coverLetters.coverLetterFor Company",
+      "templateId": "creative",
+      "data": {
+        "fullName": "Demo User",
+        "email": "demo@example.com",
+        "phone": "",
+        "address": "",
+        "date": "13.4.2025",
+        "recipientName": "",
+        "recipientCompany": "Company",
+        "recipientAddress": "",
+        "jobTitle": "Position",
+        "letterContent": "[Your Name]\n[Your Address]\n[City, State, Zip Code]\n[Your Email Address]\n[Your Phone Number]\n[Date]\n\nHiring Manager\nGoogle\n[Company Address]\n[City, State, Zip Code]\n\nDear Hiring Manager,\n\nI am writing to express my interest in the Software Engineer position at Google, as advertised. With two years of experience in software engineering and a strong passion for creating innovative solutions, I am excited about the opportunity to contribute to the cutting-edge projects at Google.\n\nDuring my tenure as a software engineer, I have honed my technical skills and developed a deep understanding of software development methodologies. I have successfully collaborated with cross-functional teams to design and implement software solutions that meet and exceed client expectations. My experience includes proficiency in programming languages such as Java, Python, and C++, as well as hands-on experience with software development tools and technologies.\n\nI am particularly drawn to Google's commitment to pushing the boundaries of technology and shaping the future through groundbreaking innovations. The collaborative and dynamic work environment at Google aligns perfectly with my professional values and aspirations. I am eager to leverage my skills and expertise to contribute to Google's mission of organizing the world's information and making it universally accessible and useful.\n\nIn addition to my technical skills, I bring a strong work ethic, excellent problem-solving abilities, and a proactive approach to challenges. I thrive in fast-paced environments and am adept at adapting to evolving project requirements. My dedication to continuous learning and staying abreast of the latest industry trends positions me well to contribute meaningfully to the innovative projects at Google.\n\nI am confident that my background and experiences make me a strong candidate for the Software Engineer position at Google. I am excited about the opportunity to bring my unique perspective and skills to the team and contribute to Google's continued success in driving technological advancements.\n\nThank you for considering my application. I look forward to the possibility of discussing how my qualifications align with the needs of your team. Please feel free to contact me at [Your Phone Number] or [Your Email Address] to schedule a meeting.\n\nWarm regards,\n\n[Your Name]",
+        "signature": "Demo User",
+        "companyName": "Company"
+      },
+      "language": "en",
+      "userId": null,
+      "createdAt": "2025-04-13T15:49:34.852Z",
+      "updatedAt": "2025-04-13T15:49:34.852Z",
+      "id": 1
+    }
+  ],
+  "sharedCoverLetters": []
+}
