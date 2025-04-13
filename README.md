@@ -137,6 +137,37 @@ resume-build/
 - `npm run build` - Builds the app for production
 - `npm test` - Launches the test runner
 
+## Deployment
+
+### Deploying to Netlify
+
+The application is configured for easy deployment to Netlify:
+
+1. **Connect your GitHub repository**:
+   - Go to [Netlify](https://www.netlify.com/)
+   - Sign up or log in
+   - Click "New site from Git"
+   - Select GitHub and authorize Netlify
+   - Choose your resume-builder repository
+
+2. **Configure the build settings**:
+   - Build command: `CI= npm run build`
+   - Publish directory: `build`
+   - The `netlify.toml` file includes these settings already
+
+3. **Advanced settings**:
+   - No environment variables are required for basic functionality
+   - For AI features, add `REACT_APP_OPENAI_API_KEY` with your OpenAI API key
+
+4. **Deploy**:
+   - Click "Deploy site"
+   - Netlify will build and deploy your application
+   - Your site will be available at a Netlify subdomain (`your-site-name.netlify.app`)
+
+### How It Works
+
+In production, the application uses Netlify Functions to serve your resume and cover letter data from `db.json`. The function is located at `netlify/functions/api.js` and automatically handles all data operations.
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
