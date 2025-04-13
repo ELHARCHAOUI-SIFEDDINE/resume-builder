@@ -1,0 +1,151 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "test@example.com",
+      "password": "hashed_password_here",
+      "name": "Test User",
+      "createdAt": "2024-03-20T00:00:00.000Z",
+      "resumes": []
+    },
+    {
+      "id": "217d",
+      "name": "elharchaoui sif-eddine",
+      "email": "eennasry@gmail.com",
+      "password": "12345678",
+      "createdAt": "2025-04-11T11:34:01.256Z"
+    },
+    {
+      "id": "374c",
+      "name": "elharchaoui sif-eddine",
+      "email": "harchaouisifeddine@gmail.com",
+      "password": "Sifddin1*",
+      "role": "user",
+      "createdAt": "2025-04-11T15:51:29.702Z",
+      "isPremium": false
+    }
+  ],
+  "templates": [
+    {
+      "id": "modern-tech",
+      "name": "Modern Tech",
+      "description": "Perfect for Software Engineers & Tech Roles",
+      "thumbnail": "/templates/modern-tech.png",
+      "colors": {
+        "primary": "#4F46E5",
+        "secondary": "#818CF8",
+        "text": "#111827",
+        "background": "#ffffff"
+      },
+      "fonts": {
+        "heading": "Inter",
+        "body": "Inter"
+      },
+      "sections": [
+        "header",
+        "summary",
+        "experience",
+        "skills",
+        "projects",
+        "education"
+      ]
+    },
+    {
+      "id": "executive",
+      "name": "Executive Pro",
+      "description": "Ideal for Senior Management & Leadership",
+      "thumbnail": "/templates/executive.png",
+      "colors": {
+        "primary": "#1F2937",
+        "secondary": "#4B5563",
+        "text": "#111827",
+        "background": "#ffffff"
+      },
+      "fonts": {
+        "heading": "Merriweather",
+        "body": "Source Sans Pro"
+      },
+      "sections": [
+        "header",
+        "summary",
+        "experience",
+        "achievements",
+        "skills",
+        "education"
+      ]
+    },
+    {
+      "id": "creative",
+      "name": "Creative Portfolio",
+      "description": "Perfect for Designers & Artists",
+      "thumbnail": "/templates/creative.png",
+      "colors": {
+        "primary": "#EC4899",
+        "secondary": "#F43F5E",
+        "text": "#111827",
+        "background": "#ffffff"
+      },
+      "fonts": {
+        "heading": "Poppins",
+        "body": "Poppins"
+      },
+      "sections": [
+        "header",
+        "portfolio",
+        "experience",
+        "skills",
+        "education",
+        "awards"
+      ]
+    },
+    {
+      "id": "minimal",
+      "name": "Minimal Clean",
+      "description": "Clean & Professional Layout",
+      "thumbnail": "/templates/minimal.png",
+      "colors": {
+        "primary": "#059669",
+        "secondary": "#14B8A6",
+        "text": "#111827",
+        "background": "#ffffff"
+      },
+      "fonts": {
+        "heading": "DM Sans",
+        "body": "DM Sans"
+      },
+      "sections": [
+        "header",
+        "experience",
+        "education",
+        "skills",
+        "references"
+      ]
+    },
+    {
+      "id": "academic",
+      "name": "Academic CV",
+      "description": "Ideal for Research & Academia",
+      "thumbnail": "/templates/academic.png",
+      "colors": {
+        "primary": "#F59E0B",
+        "secondary": "#F97316",
+        "text": "#111827",
+        "background": "#ffffff"
+      },
+      "fonts": {
+        "heading": "Lora",
+        "body": "Source Serif Pro"
+      },
+      "sections": [
+        "header",
+        "research",
+        "publications",
+        "education",
+        "teaching",
+        "grants",
+        "conferences"
+      ]
+    }
+  ],
+  "resumes": []
+}
