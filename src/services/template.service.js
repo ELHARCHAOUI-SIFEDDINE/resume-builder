@@ -1,7 +1,8 @@
 import templates, { getTemplateById as getTemplate, getAllTemplates as getAll } from '../templates';
 import coverLetterTemplates, { getCoverLetterTemplateById, getAllCoverLetterTemplates } from '../templates/coverLetterTemplates';
+import getApiUrl from '../utils/apiConfig';
 
-const API_URL = 'http://localhost:3001';
+const API_URL = getApiUrl();
 
 export const templateService = {
   // Get all templates

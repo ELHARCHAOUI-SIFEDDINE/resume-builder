@@ -1,6 +1,7 @@
 import axios from 'axios';
+import getApiUrl from '../utils/apiConfig';
 
-const API_URL = 'http://localhost:3001';
+const API_URL = getApiUrl();
 
 // Helper to manage the JWT token
 const TokenService = {
